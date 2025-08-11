@@ -46,7 +46,7 @@ import time
 #     request_data = [
 #         ("posts", 1),
 #         ("comments", 5), # Отримати коментар 5
-#         ("todos", 10),   # Отримати todo 10
+#         ("todos", 10),   # Отримати to 10
 #         ("users", 2),    # Отримати користувача 2
 #         ("posts", 9999)  # Неіснуючий пост для тесту помилки
 #     ]
@@ -65,4 +65,3 @@ import time
 # URL для поста: `https://jsonplaceholder.typicode.com/posts/{post_id}`
 # URL для коментарів: `https://jsonplaceholder.typicode.com/posts/{post_id}/comments`
 # Виведіть заголовок поста та кількість коментарів.
-
