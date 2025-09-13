@@ -20,7 +20,6 @@ def create_db():
 
 
 def save_to_db(name, link):
-    """Сохраняем один товар в базу"""
     conn = sqlite3.connect("products.db")
     cursor = conn.cursor()
     cursor.execute("INSERT INTO products (name, link) VALUES (?, ?)", (name, link))
